@@ -20,8 +20,8 @@ class RangeInputTest {
         personTemperature1.up();
         personTemperature1.down();
         personTemperature1.down();
-        personTemperature1.down();
-        assertEquals(51, personTemperature1.getCurrentTemperature());
+        personTemperature1.up();
+        assertEquals(53, personTemperature1.getCurrentTemperature());
     }
 
     @Test
@@ -42,6 +42,6 @@ class RangeInputTest {
        driverTemperature.up();
         driverTemperature.up();
         driverTemperature.up();
-        assertEquals(73,driverTemperature.getCurrentTemperature());
+        assertEquals(53,driverTemperature.getCurrentTemperature());
     }
 }

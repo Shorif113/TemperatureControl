@@ -4,7 +4,7 @@ public class RangeInput {
         currentTemperature = (minTemperature + maxTemperature) / 2;
     }
     public RangeInput(){
-        minTemperature = 60;
+        minTemperature = 20;
         maxTemperature = 80;
         calculateAverage();
     }
